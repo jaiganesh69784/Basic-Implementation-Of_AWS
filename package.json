@@ -1,0 +1,23 @@
+{
+  "name": "aws-image-processor",
+  "version": "1.0.0",
+  "description": "AWS Serverless Image Processing API",
+  "scripts": {
+    "test": "jest",
+    "deploy": "terraform -chdir=infrastructure/terraform apply"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
